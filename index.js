@@ -26,7 +26,7 @@ app.use(
   );
 app.use(express.json());
 
-//db connection
+//DB connection
 mongoose.connect(process.env.DB_URI,{
     useNewUrlParser: true,
     useUnifiedTopology: true,
